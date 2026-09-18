@@ -84,3 +84,36 @@
 .style-switcher .color-5 {
   background: #f021b2;
 }
+
+/* language switcher */
+.style-switcher .lang-switch {
+  margin-top: 20px;
+}
+
+.style-switcher .lang-switch h4 {
+  margin-bottom: 10px;
+}
+
+.style-switcher .lang-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.style-switcher .lang-buttons button {
+  flex: 1;
+  padding: 6px 0;
+  border: 1px solid var(--bg-black-50);
+  background: var(--bg-black-50);
+  color: var(--text-black-900);
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.style-switcher .lang-buttons button.active {
+  background: var(--skin-color);
+  color: #fff;
+  border-color: var(--skin-color);
+}
