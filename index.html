@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio DevX</title>
+    <title>Kevin Perez | Data Engineer & Data Analyst</title>
 
     <!-- ===== CSS Files ===== -->
     <link rel="stylesheet" href="css/style.css" />
@@ -67,23 +67,23 @@
 
         <ul class="nav">
           <li>
-            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+            <a href="#home" class="active"><i class="fa fa-home"></i> <span data-i18n="nav_home">Inicio</span></a>
           </li>
 
           <li>
-            <a href="#about"><i class="fa fa-user"></i> About Me</a>
+            <a href="#about"><i class="fa fa-user"></i> <span data-i18n="nav_about">Sobre Mí</span></a>
           </li>
 
           <li>
-            <a href="#services"><i class="fa fa-list"></i>Services</a>
+            <a href="#services"><i class="fa fa-list"></i><span data-i18n="nav_services">Servicios</span></a>
           </li>
 
           <li>
-            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i><span data-i18n="nav_portfolio">Portafolio</span></a>
           </li>
 
           <li>
-            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+            <a href="#contact"><i class="fa fa-comments"></i><span data-i18n="nav_contact">Contacto</span></a>
           </li>
         </ul>
       </div>
@@ -96,22 +96,24 @@
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
-                <h3 class="hello">
-                  Hello, my name is <span class="name">Kevin Perez</span>
+                <h3 class="hello" data-i18n="home_hello">
+                  Hola, mi nombre es <span class="name">Kevin Perez</span>
                 </h3>
                 <h3 class="my-profession">
-                  I' m a <span class="typing">Diseñador Web</span>
+                  <span data-i18n="home_profession_prefix">Soy </span><span class="typing">Ingeniero de Datos</span>
                 </h3>
 
-                <p>
-                  I'm a Systems Engineering student with hands-on experience in IT support, 
-                  infrastructure, and cloud technologies. I'm currently focused on DevOps practices, 
-                  learning tools like Docker, Git, and CI/CD pipelines. I also work with Azure and AWS 
-                  at a junior level and continue to deepen my skills in cloud computing and backend automation...
+                <p data-i18n="home_bio">
+                  Estudiante de Ingeniería de Sistemas con 3+ años de experiencia automatizando
+                  procesos e integrando datos con Python y SQL. Diseño pipelines ETL, construyo
+                  dashboards en Power BI y trabajo con bases de datos relacionales y plataformas
+                  cloud (Azure, AWS, GCP). Certificado en Azure Fundamentals (AZ-900) y CCNA,
+                  enfocado en construir soluciones de datos escalables y confiables que generan
+                  valor real para el negocio.
                 </p>
 
-                <a href="assets/CV KEVIN PEREZ.pdf" target="_blank" rel="noopener noreferrer" dowload="CV Kevin Perez" class="btn">Download CV-Spanish</a>
-                <a href="assets/CV KEVIN PEREZ ENGLISH.pdf" target="_blank" rel="noopener noreferrer"dowload="CV Kevin Perez" class="btn">Download CV-English</a>
+                <a href="assets/CV KEVIN PEREZ.pdf" target="_blank" rel="noopener noreferrer" download="CV Kevin Perez" class="btn" data-i18n="btn_cv_es">Descargar CV - Español</a>
+                <a href="assets/CV KEVIN PEREZ ENGLISH.pdf" target="_blank" rel="noopener noreferrer" download="CV Kevin Perez" class="btn" data-i18n="btn_cv_en">Descargar CV - Inglés</a>
               </div>
 
               <div class="home-img padd-15">
@@ -127,7 +129,7 @@
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
-                <h2>About Me</h2>
+                <h2 data-i18n="about_title">Sobre Mí</h2>
               </div>
             </div>
 
@@ -135,18 +137,23 @@
               <div class="about-content padd-15">
                 <div class="row">
                   <div class="about-text padd-15">
-                    <h3>I'm Kevin Perez and <span>DevOps & Cloud Computing Enthusiast</span></h3>
+                    <h3 data-i18n="about_heading">Soy Kevin Perez, <span>Ingeniero de Datos y Analista de Datos</span></h3>
 
-                    <p>
-                    I’m a sixth-semester Systems Engineering student with 2 years of experience in IT support 
-                    and infrastructure. I have basic experience in web development and Java programming, and 
-                    I've participated in small software projects. I’m familiar with tools like Git, GitHub, 
-                    Docker, Visual Studio Code, Postman, and databases such as PostgreSQL and SQL Server.
+                    <p data-i18n="about_p1">
+                    Estudiante de Ingeniería de Sistemas con 3+ años de experiencia automatizando
+                    procesos, desarrollando soluciones backend e integrando datos con Python y SQL.
+                    He participado en el diseño de automatizaciones, construcción de pipelines ETL,
+                    transformación y validación de datos, y el desarrollo de herramientas enfocadas
+                    en optimizar procesos de negocio con tecnologías modernas.
+                    </p>
 
-                    Currently, I'm focused on cloud computing and DevOps. I have foundational knowledge 
-                    of Microsoft Azure and AWS, and I’m actively learning to become more advanced in both 
-                    platforms. I'm passionate about technology, committed to continuous learning, and looking 
-                    forward to growing in cloud environments and backend automation.
+                    <p data-i18n="about_p2">
+                    Tengo conocimientos prácticos de Docker, Kubernetes, Power BI, Git, bases de
+                    datos relacionales y servicios cloud, con fuerte interés en construir pipelines
+                    de datos escalables, arquitecturas de datos y soluciones basadas en
+                    automatización e IA. Soy analítico, de aprendizaje continuo, y enfocado en
+                    construir soluciones eficientes y mantenibles que generan valor real para el
+                    negocio.
                     </p>
                   </div>
                 </div>
@@ -155,35 +162,35 @@
                   <div class="personal-info padd-15">
                     <div class="row">
                       <div class="info-item padd-15">
-                        <p>Birthday : <span>30 march 2005</span></p>
+                        <p><span data-i18n="lbl_birthday">Nacimiento</span> : <span>30 - 03 - 2005</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>Age : <span>20</span></p>
+                        <p><span data-i18n="lbl_age">Edad</span> : <span>21</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>Web : <span>professionalportfoliokevin.netlify.app</span></p>
+                        <p><span data-i18n="lbl_web">Web</span> : <span>professionalportfoliokevin.netlify.app</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>Email : <span>kevinperezp702@gmail.com</span></p>
+                        <p><span data-i18n="lbl_email">Correo</span> : <span>kevinperezp702@gmail.com</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>Degree : <span>professional in progress</span></p>
+                        <p><span data-i18n="lbl_degree">Título</span> : <span data-i18n="val_degree">Ingeniería de Sistemas (en curso)</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>Phone : <span>+57 3118724594</span></p>
+                        <p><span data-i18n="lbl_phone">Teléfono</span> : <span>+57 3118724594</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>City : <span>Bogota, Colombia</span></p>
+                        <p><span data-i18n="lbl_city">Ciudad</span> : <span>Bogotá, Colombia</span></p>
                       </div>
 
                       <div class="info-item padd-15">
-                        <p>Freelance : <span>Available</span></p>
+                        <p><span data-i18n="lbl_status">Estado</span> : <span data-i18n="val_status">Disponible para trabajar</span></p>
                       </div>
                     </div>
 
@@ -193,7 +200,8 @@
                           href="#contact"
                           data-section-index="1"
                           class="btn hire-me"
-                          >Hire Me</a
+                          data-i18n="btn_hire"
+                          >Contáctame</a
                         >
                       </div>
                     </div>
@@ -202,79 +210,79 @@
                   <div class="skills padd-15">
                     <div class="row">
                       <div class="skill-item padd-15">
-                        <h5>Cloud Computing</h5>
+                        <h5>Python / SQL</h5>
 
                         <div class="progress">
-                          <div class="progress-in" style="width: 86%"></div>
-                          <div class="skill-percent">86%</div>
+                          <div class="progress-in" style="width: 85%"></div>
+                          <div class="skill-percent">85%</div>
                         </div>
                       </div>
 
                       <div class="skill-item padd-15">
-                        <h5>Python/Bash</h5>
+                        <h5 data-i18n="skill_etl">ETL / Ingeniería de Datos</h5>
 
                         <div class="progress">
-                          <div class="progress-in" style="width: 54%"></div>
-                          <div class="skill-percent">54%</div>
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
                         </div>
                       </div>
 
                       <div class="skill-item padd-15">
+                        <h5>Power BI / Dashboards</h5>
+
+                        <div class="progress">
+                          <div class="progress-in" style="width: 78%"></div>
+                          <div class="skill-percent">78%</div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item padd-15">
+                        <h5 data-i18n="skill_db">Bases de Datos Relacionales</h5>
+
+                        <div class="progress">
+                          <div class="progress-in" style="width: 82%"></div>
+                          <div class="skill-percent">82%</div>
+                           </div>
+                      </div>
+                         <div class="skill-item padd-15">
+                        <h5>Cloud (Azure/AWS/GCP)</h5>
+
+                        <div class="progress">
+                          <div class="progress-in" style="width: 65%"></div>
+                          <div class="skill-percent">65%</div>
+                           </div>
+                      </div>
+                         <div class="skill-item padd-15">
                         <h5>Docker/Kubernetes</h5>
 
                         <div class="progress">
                           <div class="progress-in" style="width: 65%"></div>
                           <div class="skill-percent">65%</div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item padd-15">
-                        <h5>Infrastructure/Support</h5>
-
-                        <div class="progress">
-                          <div class="progress-in" style="width: 90%"></div>
-                          <div class="skill-percent">90%</div>
-                           </div>
-                      </div>
-                         <div class="skill-item padd-15">
-                        <h5>Cybersecurity</h5>
-
-                        <div class="progress">
-                          <div class="progress-in" style="width: 73%"></div>
-                          <div class="skill-percent">73%</div>  
-                           </div>
-                      </div>
-                         <div class="skill-item padd-15">
-                        <h5>Data Monitoring</h5>
-
-                        <div class="progress">
-                          <div class="progress-in" style="width: 81%"></div>
-                          <div class="skill-percent">81%</div>  
                            </div>
                       </div>
                       <div class="skill-item padd-15">
-                         <h5>CI/CD</h5>
+                         <h5 data-i18n="skill_automation">Automatización de Procesos</h5>
 
                         <div class="progress">
-                          <div class="progress-in" style="width: 75%"></div>
-                          <div class="skill-percent">75%</div>  
+                          <div class="progress-in" style="width: 88%"></div>
+                          <div class="skill-percent">88%</div>
                            </div>
                       </div>
                       <div class="skill-item padd-15">
-                         <h5>BlockChain</h5>
+                         <h5 data-i18n="skill_network">Redes y Seguridad</h5>
 
                         <div class="progress">
-                          <div class="progress-in" style="width: 40%"></div>
-                          <div class="skill-percent">40%</div>  
+                          <div class="progress-in" style="width: 60%"></div>
+                          <div class="skill-percent">60%</div>
                            </div>
                       </div>
                         </div>
                       </div>
                     </div>
-                  
+
                 <div class="row">
                   <div class="education padd-15">
-                    <h3 class="title">Education</h3>
+                    <h3 class="title" data-i18n="edu_title">Educación</h3>
 
                     <div class="row">
                       <div class="timeline-box padd-15">
@@ -284,17 +292,15 @@
                             <div class="circle-dot"></div>
 
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2022 - present
+                              <i class="fa fa-calendar"></i> 2022 - <span data-i18n="present">presente</span>
                             </h3>
-                            <h4 class="timeline-title">
-                              University Politécnico Grancolombiano
+                            <h4 class="timeline-title" data-i18n="edu1_title">
+                              Politécnico Grancolombiano — Ingeniería de Sistemas
                             </h4>
 
-                            <p class="timeline-text">
-                              Systems Engineering student with a strong 
-                              foundation in software development (Java, JavaScript) 
-                              and IT infrastructure. Now focused on DevOps, cloud automation 
-                              (AWS/Azure), and Python scripting to bridge development and operations.
+                            <p class="timeline-text" data-i18n="edu1_text">
+                              Estudiante de Ingeniería de Sistemas enfocado en Ingeniería de Datos,
+                              Cloud Computing, Automatización, DevOps y Desarrollo Backend.
                             </p>
                           </div>
 
@@ -303,16 +309,16 @@
                             <div class="circle-dot"></div>
 
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>  2025
+                              <i class="fa fa-calendar"></i>  <!-- AJUSTAR AÑO -->
                             </h3>
                             <h4 class="timeline-title">
                             Microsoft Azure AZ-900 Certified Fundamentals
                             </h4>
 
-                            <p class="timeline-text">
-                              Microsoft Azure Certified (AZ-900) with foundational cloud skills in core services, 
-                              security, and cost management. Proficient in deploying and managing cloud solutions 
-                              on the Azure platform.
+                            <p class="timeline-text" data-i18n="edu2_text">
+                              Certificación Microsoft Azure (AZ-900) con conocimientos fundamentales
+                              de servicios cloud, seguridad y gestión de costos. Capacitado para
+                              implementar y administrar soluciones en la plataforma Azure.
                             </p>
                           </div>
 
@@ -321,16 +327,17 @@
                             <div class="circle-dot"></div>
 
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2018 - 2019
+                              <i class="fa fa-calendar"></i> <!-- AJUSTAR AÑO -->
                             </h3>
                             <h4 class="timeline-title">
                               Cisco Networking Academy
                             </h4>
 
-                            <p class="timeline-text">
-                              Certified in Cisco Networking Academy (CCNA), with hands-on 
-                              experience in network configuration, troubleshooting, and security best practices. 
-                              Focused on enterprise-level routing, switching, and scalable infrastructure solutions.
+                            <p class="timeline-text" data-i18n="edu3_text">
+                              Certificación CCNA de Cisco Networking Academy, con experiencia
+                              práctica en configuración de redes, resolución de problemas y buenas
+                              prácticas de seguridad. Enfocado en enrutamiento, switching e
+                              infraestructura escalable a nivel empresarial.
                             </p>
                           </div>
                            <!-- ===== timeline item ===== -->
@@ -338,16 +345,17 @@
                             <div class="circle-dot"></div>
 
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>  2018
+                              <i class="fa fa-calendar"></i>  <!-- AJUSTAR AÑO -->
                             </h3>
-                            <h4 class="timeline-title">
-                            National Learning Service (SENA)
+                            <h4 class="timeline-title" data-i18n="edu4_title">
+                            Servicio Nacional de Aprendizaje (SENA)
                             </h4>
 
-                            <p class="timeline-text">
-                              Cybersecutiry and Ethical Hacking trained in penetration testing, vulnerability assessment,
-                               and defensive security techniques. Hands-on experience with Kali Linux and 
-                               offensive/defensive security tools
+                            <p class="timeline-text" data-i18n="edu4_text">
+                              Formación en Ciberseguridad y Ethical Hacking, cubriendo pruebas de
+                              penetración, evaluación de vulnerabilidades y técnicas de seguridad
+                              defensiva. Experiencia práctica con Kali Linux y herramientas de
+                              seguridad ofensiva/defensiva.
                             </p>
                           </div>
                         </div>
@@ -356,7 +364,7 @@
                   </div>
 <!-- ===== timeline end ===== -->
                   <div class="experience padd-15">
-                    <h3 class="title">Experience</h3>
+                    <h3 class="title" data-i18n="exp_title">Experiencia</h3>
 
                     <div class="row">
                       <div class="timeline-box padd-15">
@@ -366,35 +374,18 @@
                             <div class="circle-dot"></div>
 
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2022
-                            </h3>
-                            <h4 class="timeline-title">
-                              NetAllCorrect - IT Assist
-                            </h4>
-
-                            <p class="timeline-text">
-                              Conducted proactive system vulnerability assessments while delivering helpdesk 
-                              support and hardware maintenance. Automated workflows with Bash/Python scripts 
-                              and maintained network documentation to ensure secure and efficient operations
-                            </p>
-                          </div>
-
-                          <!-- ===== timeline item ===== -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-
-                            <h3 class="timeline-date">
                               <i class="fa fa-calendar"></i> 2023 - 2024
                             </h3>
-                            <h4 class="timeline-title">
-                              Tech Ventures - Technical IT
+                            <h4 class="timeline-title" data-i18n="exp1_title">
+                              TechVentures — Técnico IT (Integración de Datos y ETL)
                             </h4>
 
-                            <p class="timeline-text">
-                              Managed IT infrastructure (servers, firewalls, VMs) and provided multi-level 
-                              technical support (onsite/remote). Automated tasks via Bash/Python scripts, 
-                              created technical documentation, and built real-time metrics dashboards in 
-                              Power BI using ETL pipelines.
+                            <p class="timeline-text" data-i18n="exp1_text">
+                              Diseñé e implementé procesos ETL para consolidar información
+                              empresarial de múltiples fuentes. Integré datos para construir
+                              dashboards en tiempo real en Power BI, automaticé procesos técnicos
+                              mediante scripting, y administré infraestructura virtual y plataformas
+                              empresariales.
                             </p>
                           </div>
 
@@ -403,16 +394,38 @@
                             <div class="circle-dot"></div>
 
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2022
+                              <i class="fa fa-calendar"></i> 2024 - 2025
                             </h3>
-                            <h4 class="timeline-title">
-                              UpWork - Freelance Tech Devolper
+                            <h4 class="timeline-title" data-i18n="exp2_title">
+                              NetAllCorrect — Técnico IT (Automatización y Procesamiento de Datos)
                             </h4>
 
-                            <p class="timeline-text">
-                              As a freelance developer, I enhanced Python backends and JavaScript frontends, 
-                              including proactive bug fixes and QA integration. Optimized API response times by 
-                              30% for two mission-critical applications, significantly improving scalability and user experience.
+                            <p class="timeline-text" data-i18n="exp2_text">
+                              Automaticé tareas operativas con Python y Bash, desarrollé scripts
+                              para procesar y analizar información técnica, y administré servidores
+                              Windows/Linux garantizando la disponibilidad del servicio. Documenté y
+                              estandaricé procesos técnicos, e implementé controles de seguridad y
+                              evaluaciones de infraestructura.
+                            </p>
+                          </div>
+
+                          <!-- ===== timeline item ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2025 - 2026
+                            </h3>
+                            <h4 class="timeline-title" data-i18n="exp3_title">
+                              Inversiones Alcabama — Técnico IT (Automatización y Soporte de Datos)
+                            </h4>
+
+                            <p class="timeline-text" data-i18n="exp3_text">
+                              Automaticé procesos internos con Python para optimizar tiempos
+                              operativos, desarrollé procesos ETL para extracción, transformación y
+                              validación de datos, y automaticé reportes e indicadores mediante
+                              scripts en Python. Administré y optimicé bases de datos relacionales y
+                              construí herramientas internas para mejorar la eficiencia del negocio.
                             </p>
                           </div>
                         </div>
@@ -431,7 +444,7 @@
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
-                <h2>Services</h2>
+                <h2 data-i18n="services_title">Servicios</h2>
               </div>
             </div>
 
@@ -440,12 +453,13 @@
               <div class="service-item padd-15">
                 <div class="service-item-inner">
                   <div class="icon">
-                    <i class="fa fa-lock"></i>
+                    <i class="fa fa-terminal"></i>
                   </div>
 
-                  <h4>Cybersecurity</h4>
-                  <p>
-                    Proactively secure your systems with penetration testing, threat monitoring, and security hardening.
+                  <h4 data-i18n="svc1_title">Analítica y Reportes de Datos</h4>
+                  <p data-i18n="svc1_text">
+                    Transformo datos crudos en insights accionables con dashboards de Power BI y
+                    reportes personalizados.
                   </p>
                 </div>
               </div>
@@ -455,12 +469,29 @@
               <div class="service-item padd-15">
                 <div class="service-item-inner">
                   <div class="icon">
-                    <i class="fa fa-laptop-code"></i>
+                    <i class="fa fa-database"></i>
                   </div>
 
-                  <h4>Full-Stack Web Development</h4>
-                  <p>
-                    Build responsive, user-friendly websites and web apps with modern frameworks like React or Django.
+                  <h4 data-i18n="svc2_title">ETL e Integración de Datos</h4>
+                  <p data-i18n="svc2_text">
+                    Diseño pipelines ETL para extraer, transformar, validar y consolidar datos de
+                    múltiples fuentes.
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service item End ====== -->
+
+              <!-- ===== Service item Start ====== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-file"></i>
+                  </div>
+
+                  <h4 data-i18n="svc3_title">Automatización de Procesos</h4>
+                  <p data-i18n="svc3_text">
+                    Optimizo tareas repetitivas y reportes con scripts en Python/Bash para aumentar
+                    la productividad.
                   </p>
                 </div>
               </div>
@@ -473,25 +504,10 @@
                     <i class="fa fa-code"></i>
                   </div>
 
-                  <h4>Cloud Migration & DevOps Automation</h4>
-                  <p>
-                    Migrate and optimize your infrastructure on AWS/Azure with automated CI/CD pipelines for seamless
-                     deployments.
-                  </p>
-                </div>
-              </div>
-              <!-- ===== Service item End ====== -->
-
-              <!-- ===== Service item Start ====== -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-palette"></i>
-                  </div>
-
-                  <h4>Graphic & UI/UX Design</h4>
-                  <p>
-                    Create compelling logos, branding, and intuitive interfaces with Adobe Suite and Figma.
+                  <h4 data-i18n="svc4_title">Cloud y Automatización DevOps</h4>
+                  <p data-i18n="svc4_text">
+                    Doy soporte a infraestructura en Azure/AWS/GCP con Docker, Kubernetes y
+                    pipelines de CI/CD.
                   </p>
                 </div>
               </div>
@@ -504,9 +520,10 @@
                     <i class="fa fa-server"></i>
                   </div>
 
-                  <h4>DBA</h4>
-                  <p>
-                    Manage, tune, and secure databases (SQL/NoSQL) for peak performance and reliability.
+                  <h4 data-i18n="svc5_title">Administración de Bases de Datos</h4>
+                  <p data-i18n="svc5_text">
+                    Gestiono, optimizo y mantengo bases de datos relacionales (PostgreSQL, MySQL,
+                    SQL Server) para garantizar su confiabilidad.
                   </p>
                 </div>
               </div>
@@ -519,48 +536,41 @@
                     <i class="fa fa-wrench"></i>
                   </div>
 
-                  <h4>Helpdesk Solutions</h4>
-                  <p>
-                    Provide fast, remote/onsite tech support for hardware, software, and network issues.
+                  <h4 data-i18n="svc6_title">Soporte Técnico e Infraestructura IT</h4>
+                  <p data-i18n="svc6_text">
+                    Brindo soporte técnico y administración de infraestructura para servidores y
+                    plataformas empresariales.
                   </p>
                 </div>
               </div>
               <!-- ===== Service item End ====== -->
-                <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-terminal"></i>
-                  </div>
 
-                  <h4>Data Analytics & Reporting</h4>
-                  <p>
-                    Transform raw data into actionable insights with Power BI, Tableau, or custom dashboards.
-                  </p>
-                </div>
-              </div>
-              <!-- ===== Service item End ====== -->
-               <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-file"></i>
-                  </div>
-
-                  <h4>Scripting</h4>
-                  <p>
-                    Streamline repetitive tasks with Python/Bash scripts to boost productivity.
-                  </p>
-                </div>
-              </div>
-              <!-- ===== Service item End ====== -->
                <div class="service-item padd-15">
                 <div class="service-item-inner">
                   <div class="icon">
                     <i class="fa fa-cloud"></i>
                   </div>
 
-                  <h4>Kubernetes & Container Orchestration  </h4>
-                  <p>
-                    Deploy and scale containerized applications efficiently with managed Kubernetes solutions.
+                  <h4 data-i18n="svc7_title">Kubernetes y Orquestación de Contenedores</h4>
+                  <p data-i18n="svc7_text">
+                    Despliego y escalo aplicaciones en contenedores de forma eficiente con Docker y
+                    Kubernetes.
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service item End ====== -->
+
+              <!-- ===== Service item Start ====== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-lock"></i>
+                  </div>
+
+                  <h4 data-i18n="svc8_title">Fundamentos de Redes y Seguridad</h4>
+                  <p data-i18n="svc8_text">
+                    Aplico buenas prácticas de redes y seguridad, respaldado por formación CCNA y
+                    Ethical Hacking.
                   </p>
                 </div>
               </div>
@@ -575,85 +585,47 @@
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
-                <h2>Portfolio</h2>
+                <h2 data-i18n="portfolio_title">Portafolio</h2>
               </div>
             </div>
 
             <div class="row">
               <div class="portfolio-heading padd-15">
-                <h2>My Last Projects :</h2>
+                <h2 data-i18n="portfolio_heading">Mis Proyectos</h2>
               </div>
             </div>
 
+            <!--
+              NOTA PARA KEVIN: agrega aquí más proyectos reales (ETL, dashboards, scripts de
+              automatización, repos de GitHub) con captura + descripción + link, copiando la
+              estructura de esta tarjeta.
+            -->
             <div class="row">
               <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portfolio-1.jpg" alt="" />
+              <div class="portfolio-item padd-15 featured">
+                <div class="portfolio-item-inner shadow-dark featured-card">
+                  <a href="https://bibliopoli.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <div class="portfolio-img">
+                      <img src="images/portfolio/Portafolio-7.jpg" alt="Bibliopoli project" />
+                    </div>
+                  </a>
+                  <div class="portfolio-card-content">
+                    <h4 data-i18n="portfolio_project_title">Bibliopoli — Plataforma Web</h4>
+                    <p data-i18n="portfolio_project_desc">
+                      Aplicación web con sistema de autenticación (login/registro) desarrollada
+                      para la comunidad del Politécnico Grancolombiano.
+                    </p>
+                    <div class="portfolio-tags">
+                      <span>Web App</span>
+                      <span>Auth</span>
+                      <span>Frontend</span>
+                    </div>
+                    <a href="https://bibliopoli.netlify.app" target="_blank" rel="noopener noreferrer" class="portfolio-cta">
+                      <span data-i18n="portfolio_project_cta">Ver proyecto</span>
+                      <i class="fa fa-arrow-right"></i>
+                    </a>
                   </div>
                 </div>
-              </div>
-              <!-- ====== portfolio item End ====== -->
-
-              <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portfolio-2.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- ====== portfolio item End ====== -->
-
-              <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portfolio-3.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- ====== portfolio item End ====== -->
-
-              <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portfolio-4.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- ====== portfolio item End ====== -->
-
-              <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portfolio-5.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- ====== portfolio item End ====== -->
-
-              <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portfolio-6.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- ====== portfolio item End ====== -->
-              <!-- ====== portfolio item start ====== -->
-              <div class="portfolio-item padd-15">
-                <a href="https://bibliopoli.netlify.app" target="_blank" rel="noopener noreferrer">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/portafolio-7.jpg" alt="" />
-                  </div>
-                </div>  
-                </a>
               </div>
               <!-- ====== portfolio item End ====== -->
             </div>
@@ -666,19 +638,19 @@
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
-                <h2>Contact Me</h2>
+                <h2 data-i18n="contact_title">Contacto</h2>
               </div>
             </div>
 
-            <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <h3 class="contact-title padd-15" data-i18n="contact_q">¿Tienes alguna pregunta?</h3>
+            <h4 class="contact-sub-title padd-15" data-i18n="contact_sub">ESTOY A TU SERVICIO</h4>
 
             <div class="row">
               <!-- ===== Contact info item start ====== -->
               <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-phone"></i></div>
 
-                <h4>Call Us On</h4>
+                <h4 data-i18n="lbl_call">Llámame al</h4>
                 <p>+57 3118724594</p>
               </div>
               <!-- ===== Contact info item end ====== -->
@@ -687,8 +659,8 @@
               <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
 
-                <h4>Office</h4>
-                <p>Bogota, Colombia</p>
+                <h4 data-i18n="lbl_location">Ubicación</h4>
+                <p>Bogotá, Colombia</p>
               </div>
               <!-- ===== Contact info item end ====== -->
 
@@ -696,7 +668,7 @@
               <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-envelope"></i></div>
 
-                <h4>Email</h4>
+                <h4 data-i18n="lbl_email2">Correo</h4>
                 <p>kevinperezp702@gmail.com</p>
               </div>
               <!-- ===== Contact info item end ====== -->
@@ -705,73 +677,10 @@
               <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-globe-europe"></i></div>
 
-                <h4>Website</h4>
-                <p>www.domain.com</p>
+                <h4 data-i18n="lbl_website">Sitio Web</h4>
+                <p>professionalportfoliokevin.netlify.app</p>
               </div>
               <!-- ===== Contact info item end ====== -->
-            </div>
-
-            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-            <h4 class="contact-sub-title padd-15">
-              I'M VERY RESPOSIVE TO MESSAGES
-            </h4>
-
-            <!-- ====== Contact Form ====== -->
-            <div class="row">
-              <div class="contact-form padd-15">
-                <div class="row">
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Subject"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <textarea
-                        name=""
-                        class="form-control"
-                        id=""
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -791,7 +700,7 @@
         <i class="fas"></i>
       </div>
 
-      <h4>Theme Colors</h4>
+      <h4 data-i18n="sw_theme_colors">Colores del Tema</h4>
 
       <div class="colors">
         <span class="color-1" onclick="setActiveStyle('color-1')"></span>
@@ -799,6 +708,14 @@
         <span class="color-3" onclick="setActiveStyle('color-3')"></span>
         <span class="color-4" onclick="setActiveStyle('color-4')"></span>
         <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+
+      <div class="lang-switch">
+        <h4 data-i18n="sw_language">Idioma</h4>
+        <div class="lang-buttons">
+          <button type="button" id="lang-es" class="active" onclick="setLanguage('es')">ES</button>
+          <button type="button" id="lang-en" onclick="setLanguage('en')">EN</button>
+        </div>
       </div>
     </div>
     <!-- ===== Style Switcher End ===== -->
@@ -812,5 +729,7 @@
     <script src="js/script.js"></script>
 
     <script src="js/style-switcher.js"></script>
+
+    <script src="js/i18n.js"></script>
   </body>
 </html>
