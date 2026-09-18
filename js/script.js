@@ -1,20 +1,8 @@
 /* ============================== typing animation ============================ */
-var typed = new Typed('.typing', {
-  strings: [
-    '',
-    'Systems Engineer',
-    'DevOps Junior',
-    'Cloud Architect',
-    'IT analyst',
-    'Network Administrator',
-    'DBA',
-    'Full-Stack developer',
-    'Technical Support Engineer',
-  ],
-  typeSpeed: 100,
-  BackSpeed: 60,
-  loop: true,
-});
+// Moved to js/i18n.js: the typing animation now depends on the active language
+// (Spanish/English strings), so it is initialized (and re-initialized on language
+// switch) there instead of hardcoded here. It still guards against Typed.js CDN
+// failures the same way, so a blocked CDN can't break the rest of the page.
 
 /* ============================== Aside ============================ */
 const nav = document.querySelector('.nav'),
